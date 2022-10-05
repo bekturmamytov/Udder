@@ -15,8 +15,13 @@ struct ContentView: View {
                 .font(.title)
             Text("Fresh Milk, On Demand")
             
-            Image(systemName: "globe")
-                .font(.title)
+            HStack {
+                Image(systemName: "globe")
+                    .font(.title)
+                
+                Image(systemName: "arrow.right")
+            }
+            
                 
         }
         .padding()
