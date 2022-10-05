@@ -22,6 +22,10 @@ struct ContentView: View {
                 Image(systemName: "arrow.right")
             }
             
+            
+            HStack {
+                Text("New text")
+            }
                 
         }
         .padding()
