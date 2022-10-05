@@ -25,6 +25,7 @@ struct ContentView: View {
             
             HStack {
                 Text("New text")
+                Text("new commit with xcode to origin remote")
             }
                 
         }
